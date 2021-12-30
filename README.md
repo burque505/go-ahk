@@ -10,4 +10,4 @@ You will not *need* this package to access AutoHotkey.dll. You can do everything
 
 This package targets [AutoHotkey.dll v.1](https://github.com/HotKeyIt/ahkdll-v1-release/archive/master.zip).
 
-# I will also provide a few gists of examples without this package for those inclined to experiment #
+### I will also provide a few gists of examples without this package for those inclined to experiment ###
