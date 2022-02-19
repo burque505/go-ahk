@@ -19,13 +19,13 @@ There will be support for most AutoHotkey.dll methods, hopefully. However, you c
 ```
 oleutil.MustCallMethod(ahk, "ahkexec", `var1 = 5 + 27.8`)
 ```
-(You don't necessarily *need* this package to access AutoHotkey.dll from Go. You can do everything this package does with go-ole](https://github.com/go-ole/go-ole) and a little more typing. )
+(You don't necessarily *need* this package to access AutoHotkey.dll from Go. You can do everything this package does with [go-ole](https://github.com/go-ole/go-ole) and a little more typing. )
 
 This module uses [AutoHotkey.dll v.1](https://github.com/HotKeyIt/ahkdll-v1-release/archive/master.zip).
 
 ### In the future I might upload a few gists of examples NOT using this package for those inclined to experiment. ###
 
-*As this is still pre-alpha code, it might be better to call the engine's built-in methods rather than the wrapping methods in 'engine.go'. *
+_As this is still pre-alpha code, it might be better to call the engine's built-in methods rather than the wrapping methods in 'engine.go'._
 
 Here's an example of a GUI
 that requires engine.EngineReady(engine), with some commented-out code that accomplishes the same thing. If you uncomment the variables at the top and the for loop, be sure to comment out 'engine.EngineReady(ahk2)).
